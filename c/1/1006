@@ -1,0 +1,19 @@
+/*
+média com peso
+A com peso 2
+B com peso 3
+C com peso 5
+*/
+#include <stdio.h>
+
+int main() {
+  double gradeA, gradeB, gradeC, MEDIA; //declaração
+
+  scanf("%lf %lf %lf", &gradeA, &gradeB, &gradeC); //lendo...
+ 
+  MEDIA = (gradeA * 2 + gradeB * 3 + gradeC * 5) / (2 + 3 + 5); //equação
+
+  printf("MEDIA = %.1lf\n", MEDIA); //resposta
+
+  return 0;
+}
