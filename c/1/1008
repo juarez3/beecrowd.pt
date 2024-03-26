@@ -7,11 +7,11 @@ int main() {
   int id; //número do assalariado 
   double horasTrabalhas, precoHora, finalDoMes; //valores
 
-  scanf("%d %lf %lf", &employeeNumber, &horasTrabalhas, &precoHora); //leitura 
+  scanf("%d %lf %lf", &id, &horasTrabalhas, &precoHora); //leitura 
 
   finalDoMes = horasTrabalhas * precoHora; //equação
 
-  printf("NUMBER = %d\n", employeeNumber); //linhas separadas para o código e o dinheiro
+  printf("NUMBER = %d\n", id); //linhas separadas para o código e o dinheiro
   printf("SALARY = U$ %.2lf\n", finalDoMes);
   return 0;
 }
