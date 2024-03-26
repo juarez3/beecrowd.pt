@@ -1,0 +1,17 @@
+/*
+fazer a multiplicação e a subtração 
+entender a fila de prioridade 
+sobre procedência
+*/
+#include <stdio.h>
+
+int main() {
+  int A, B, C, D; //declarar as letrasnumericas 
+
+  scanf("%d %d %d %d", &A, &B, &C, &D); //esperando .....
+  int difference = (A * B) - (C * D); //na dúvida sobre a procedência coloque ()
+
+  printf("DIFERENCA = %d\n", difference); //fim ;)
+
+  return 0;
+}
