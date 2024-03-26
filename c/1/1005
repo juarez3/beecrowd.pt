@@ -1,0 +1,17 @@
+/*
+média pondera
+A com peso 3,5
+B com peso 7,5
+*/
+include <stdio.h>
+
+int main() {
+  double gradeA, gradeB, average;
+
+  scanf("%lf %lf", &gradeA, &gradeB); // lendo....
+
+  average = (gradeA * 3.5 + gradeB * 7.5) / (3.5 + 7.5); //equação
+
+  printf("MEDIA = %.5lf\n", average); //fim :)
+  return 0;
+}
