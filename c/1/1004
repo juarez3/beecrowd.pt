@@ -1,0 +1,16 @@
+/*
+produto em linhas 
+diferentes
+*/
+#include <stdio.h>
+
+int main() {
+  int A, B, PROD; //variaveis declaradas
+
+  scanf("%d %d", &A, &B); //lendo...
+  PROD = A * B; //operação
+
+  printf("PROD = %d\n", PROD); /imprime 
+
+  return 0;
+}
