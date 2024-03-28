@@ -10,7 +10,7 @@ int main()
 
   scanf("%lf", &R);
   A = pi * r * r; 
-  printf("A=%.4lf\n", A);
+  printf("A=%.4lf\n", A); //4 casas de precisão
 
   return 0;
 }
