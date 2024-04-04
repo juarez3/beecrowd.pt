@@ -1,6 +1,6 @@
 /*
 contas para a lanchonete bomba
-sequêcia de condicionais 
+sequêcia de condicionais (ou case, se tivesse usado switch) 
 */
 include <stdio.h>
 
